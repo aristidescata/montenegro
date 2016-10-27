@@ -1,0 +1,63 @@
+body {
+  margin: 0px;
+}
+
+.nav-fixed {
+  position: fixed;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+ul.list-container li {
+  display: inline-block;
+  padding: 15px 20px 15px 20px;
+  width: 5%;
+}
+
+ul.list-container li a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  margin-top: 45px;
+  position: relative;
+  left: calc(50% - 355px);
+}
+
+.media {
+  text-align: center;  
+}
+
+iframe {
+  position: relative;
+  left: calc(50% - 375px);
+  height: 50%;
+}
+
+.scroll {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+#first {
+  background-color: black;
+  display: block;
+}
+
+#second {
+  background-color: grey;
+}
+
+#third {
+  background-color: lightgrey;
+}
+
